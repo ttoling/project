@@ -252,28 +252,24 @@
             <div class="loginbox register">
                 <div class="head"><strong class="title">新用户注册</strong></div>
                 <div class="body clear">
-                    <div class="form">
-                        <ul>
-                            <li>
-                                <span class="label">账户名：</span>
-                                <input type="text" maxlength="32" id="txtEmail" defaultValue="手机/邮箱" value="手机/邮箱"/>
-                            </li>
-                            <li>
-                                <span class="label">输入密码：</span>
-                                <input type="password" maxlength="16" id="Password"/>
-                            </li>
-                            <li>
-                                <span class="label">再次输入密码：</span>
-                                <input type="password" maxlength="16" id="RePassword" />
-                            </li>
-                            <li>
-                                <input type="submit" value="同意协议并注册" id="Register" />
-                                <p class="pact">
-                                    <a href="/help-13296.html" target="_blank">《亿超服务协议》</a>
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
+                    <form class="form">    
+                        <span>账户名：</span>
+                        <input type="text" maxlength="32" minlength="5" id="txtEmail" placeholder="手机/邮箱" required=true/>
+                        <b class="tipsmsg"></b>
+                        <br>
+                          
+                        <span>输入密码：</span>
+                        <input type="text" maxlength="16" id="Password" minlength="8" required=true name="pass"/>
+                        <br>  
+                        <span>再次输入密码：</span>
+                        <input type="text" maxlength="16" minlength="8" id="RePassword" equalTo="#Password" required=true name="repass"/>
+                        <br>
+                        <input type="submit" value="同意协议并注册" id="Register"/>
+                        <p class="pact">
+                            <a href="/help-13296.html">《亿超服务协议》</a>
+                        </p>
+                        <br>
+                    </form>
                 </div>
                 <div class="notice">
                     <div class="gologin">
@@ -431,4 +427,8 @@
         </ul>
     </div>
 </body>
+<script src="../libs/jquery.2.2.4.js"></script>
+<script src="../libs/jquery.validate.js"></script>
+<script src="../libs/jquery.validate.messages_zh.js"></script>
+<script src="js/registe.js"></script>
 </html>

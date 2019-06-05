@@ -2,15 +2,16 @@ main{height: 451px;padding:10px 0 15px;}
 main .loginbox{height: 416px;margin-bottom: 10px;border: 1px solid #e0e0e0;}
 main .loginbox .head{font:700 14px/34px "";height: 34px;color:#333;padding-left:15px;background: url(../images/sprites_rx_1.png);background-position: 0 -250px;}
 main .loginbox .body{height: 380px;float: left;border-right: 1px solid #ccc;}
-main .loginbox .form{height: 380px;width: 679px;}
-main .loginbox .form ul{margin: 35px 0 0 110px;}
-main .loginbox .form ul li{width:470px;height: 59px;}
-main .loginbox .form ul li input{background: none;border: none;}
-main .loginbox .form ul li span{display: inline-block;height: 53px;padding-top: 6px;vertical-align: top;text-align: right;width: 120px;}
-main .loginbox .form ul li input{height: 24px;width:190px;padding:0 3px;border-top:1px solid #707070;border-left:1px solid #707070;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;font: 12px/2 "";color:#999;}
+main .loginbox .form{height: 345px;width: 569px;padding: 35px 0 0 110px;}
+main .loginbox .form .tipsmsg{color:red;}
+
+main .loginbox .form input{background: none;border: none;}
+main .loginbox .form span{display: inline-block;height: 53px;padding-top: 6px;vertical-align: top;text-align: right;width: 120px;}
+main .loginbox .form input{height: 24px;width:190px;padding:0 3px;border-top:1px solid #707070;border-left:1px solid #707070;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;font: 12px/2 "";color:#999;}
 #Register{margin-left: 120px;width: 136px;height: 32px;text-align: center;background: #b91c2b;color:#fff;font:600 12px/32px "";}
-main .loginbox .form ul li .pact{margin-left: 140px;padding-top: 3px;}
-main .loginbox .form ul li .pact a{color:#999;}
+main .loginbox .form .pact{margin-left: 140px;padding-top: 3px;}
+main .loginbox .form .pact a{color:#999;}
+
 main .loginbox .notice{float: left;width: 505px;height: 380px;}
 main .loginbox .gologin{text-align: center;padding-top: 145px;}
 main .loginbox .gologin .loging{font: 12px/26px "";color:#333;}
