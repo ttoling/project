@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>这是购物车页面</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="car.css">
+    <script src="../libs/jquery.2.2.4.js"></script>
+    <script>
+        $(function(){
+            $("#subNav").load("http://localhost/1903/project-yichao/public.html .subNav")
+            $("footer").load("http://localhost/1903/project-yichao/public.html  .footer")
+            $("#aside").load("http://localhost/1903/project-yichao/public.html  .aside")
+        })
+    </script>
+</head>
+<body>
+        <section id="subNav">
+       
+        </section>
+        <main>
+            <div class="layout">
+                <div class="headercart clear">
+                    <div class="head">
+                        <div class="logo">
+                            <a href="https://www.yichao.cn">
+                                <img src="images/logo.jpg" width="238" height="54" alt="亿超LOGO" /></a>
+                        </div>
+                    </div>
+                    <div class="head_buy">
+                        <ul>
+                            <li class="cart_buy current"><i>1</i></li><li class="cart_buy"><i>2</i></li>
+                            <li class="cart_buy"><i>3</i></li>
+                        </ul>
+                        <ul>
+                            <li class="cart_path currentbottom"><i>1.我的购物车</i></li>
+                            <li class="cart_path"><i>2.填写核对订单信息</i></li>
+                            <li class="cart_path"><i>3.成功提交订单</i></li>
+                        </ul>       
+                    </div>
+                </div>
+    
+                <div class="bodyer shopcart">
+                    <div class="shopcart_layout">
+                        <div class="mycart">
+                            我的购物车<i>1KG内在线支付180元包邮，货到付款350元包邮</i>
+                        </div>
+                        <div class="ordercart">
+                            <ul class="list_title">
+                                <li class="checkall">
+                                    <input id="chkSelectAllTop" name="chkSelectAll" class="cbox" type="checkbox" checked="checked" /><i>全选</i></li>
+                                <li class="goodinfo">商品</li>
+                                <li class="spec">商品信息</li>
+                                <li class="unitprice">单价</li>
+                                <li class="num">数量</li>
+                                <li class="subtotal">小计</li>
+                                <li class="operation">操作</li>
+                            </ul>
+                            <ul id="ctl00_cphBody_orderCart" class="list_content">
+                                <div id="pnlEmpty" class="cart_none">
+                                    <h3>您的购物车还是空的，赶紧行动吧！您可以：</h3>
+                                    <p>马上去 <a href="https://www.yichao.cn/">挑选商品</a></p>
+                                    <p>看看 <a href="/member/">已买到的商品</a></p>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="cartcheckout">
+                            <div class="alertinfo">
+                                请至少选择一个商品</div>
+                            <ul>
+                                <li class="checkall">
+                                    <input id="chkSelectAllBottom" name="chkSelectAll" class="cbox" type="checkbox" checked="checked" /><i>全选</i></li>
+                                <li class="delall"><a href="javascript:void(0);" class="delChoose">删除选中商品</a></li>
+                                <li class="checkednum">已选商品<i class="cartnum">0</i>件</li>
+                                <li class="total">合计(不含运费)：</li>
+                                <li><i id="lblTotalAmount" class="totalprice">￥0.00</i> </li>
+                                <li><a class="checkout">结算</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+        </main>
+
+        <footer>
+       
+        </footer>
+    
+        <div id="aside">
+            
+        </div>
+</body>
+</html>

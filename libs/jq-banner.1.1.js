@@ -56,14 +56,6 @@
                 left: 0
             }, moveTime)
 
-            //在按钮的功能中设置list的当前项,如果传了list就设置，如果没有传就跳过
-            // if(list){
-            //     $(".list").children().eq(iPrev).css({
-            //         background:""
-            //     }).end().eq(index).css({
-            //         background:"skyblue"
-            //     })
-            // }
             list && $(".list").children().eq(iPrev).css({
                 background: "#999"
             }).end().eq(index).css({
