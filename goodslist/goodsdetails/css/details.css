@@ -1,0 +1,60 @@
+nav{height: 40px;background: #222;}
+nav .nav{position: relative;}
+nav .nav-r{float: left;margin-left: 200px;}
+nav .nav-r ul{height: 40px;}
+nav .nav-r ul li{float: left;font-size: 14px;padding:0 28px;line-height: 40px;height: 40px;}
+nav .nav-r ul li a{color:#fff;}
+nav .nav-r ul li:hover{background: rgba(200,200,200,0.5);}
+nav .nav-r ul li:hover a{color:#fff;}
+nav .classify{width: 200px;text-align: center;height: 540px;position: absolute;top:0;left:0;z-index: 500;opacity: 0.9;}
+nav .classify h3{background:#c72131;width: 200px;height: 40px;line-height: 40px;color:#fff;}
+nav .classify h3 i{background: url(../images/xiajiantou.png) no-repeat center;display: inline-block;width: 9px;height: 5px;margin-left: 3px;}
+main{padding: 10px 0 15px;background: #fff;margin-bottom: 10px;min-height: 1000px;}
+main .title{padding: 10px 0 10px;position: relative;}
+main .title a{color: #333;}
+main .title i{font-family: 宋体;padding: 0px 5px;}
+main .detail{margin: 0 0 25px}
+
+main .detail .detail-l{float: left;width: 402px;position: relative;height: 496px;border: 1px solid #cdcdcd;}
+main .detail .detail-l .lbox{border: 1px solid #ddd;position: absolute;top: 0;left: 0;width: 400px;height: 400px;}
+main .detail .detail-l .lbox .simg{width: 400px;height: 400px;display: block;}
+main .detail .detail-l .lbox .span{width: 100px;height: 100px;position: absolute;border: 1px solid #cdcdcd;display: none;}
+main .detail .detail-l .rbox{ width: 400px;height: 400px;position: absolute;top: 0;left:410px;overflow: hidden;display: none;border:1px solid #999;z-index: 1000;}
+main .detail .detail-l .rbox .bimg{width: 800px;height: 800px;position: absolute;z-index: 1000;}
+main .detail .smallimg{width: 400px;height: 64px;margin: 7px 0 0;position: absolute;top:405px;left: 0;}
+main .detail .smallimg ul{width: 400px;height: 64px;overflow: hidden;}
+main .detail .smallimg ul li{display: inline-block;width: 62px;height: 62px;margin: 0 10px 0 0;overflow: hidden;cursor: pointer;vertical-align: top;border: 1px solid #cdcdcd;}
+main .detail .smallimg ul li a{border: 1px solid #dcdcdc;padding: 1px;display: block;}
+main .detail .smallimg ul li img{width: 60px;height: 60px;}
+
+main .detail .fenxiang{position: absolute;bottom: 0;left: 0;height: 15px;width: 400px;}
+main .detail .fenxiang a{float: right;color: #666666;
+height: 20px;line-height: 15px;padding: 0 10px 0 18px;
+background: url(../images/shou.png) no-repeat;margin-bottom: 5px;}
+
+main .detail-c{float: left;width: 525px;color: rgb(51, 51, 51);margin-left: 21px;}
+main .detail-c .goodsname{top: 10px;color: hsl(0, 0%, 60%);position: relative;font-size: 14px;}
+main .detail-c .goodsname p{width: 100%;color: rgb(0, 0, 0);font-family: 微软雅黑;font-size: 16px;font-weight: bold;overflow: hidden;padding: 0px 16px;} 
+main .detail-c .goodsprice{font-family: 微软雅黑;padding: 20px 16px;}
+main .detail-c .goodsprice i{color: #d10000;padding: 0 15px;font-size: 30px;}
+main .detail-c .goodscolor{margin-top: 20px;padding-bottom: 1px;line-height: 24px;color: #555;
+padding: 0px 15px 0px 15px;}
+main .detail-c .goodscolor i{display: inline-block;    margin: 0px 6px 6px 0px;border: 1px solid #cdcdcd;padding: 0 5px;}
+main .detail-c .addcar{padding: 18px 0 0 10px;
+position: relative;margin-top: 20px;}
+main .detail-c .addcar h3{height: 60px;float: left;margin-left: 10px; width: 167px;height: 45px;
+line-height: 40px;vertical-align: bottom;border: 1px solid #d10000;text-align: center;}
+main .detail-c .addcar span{display: inline-block;width: 100%;margin-top: 20px;margin-left: 10px;}
+main .detail-c .goshop{margin-top: 20px;margin-left: 15px;}
+main .detail-c .goshop dl dt{font-weight: bold;}
+main .detail-c .goshop dl dd{font-weight: bold;margin: 5px;font-weight: normal;}
+main .detail-c .goshop dl dd i{background-color: #999;height: 8px;width: 8px;border-radius: 50%;margin-top: 4px;margin-right: 4px;display: inline-block;}
+
+
+
+
+
+
+
+
+
