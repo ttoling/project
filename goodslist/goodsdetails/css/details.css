@@ -16,6 +16,7 @@ main .title i{font-family: 宋体;padding: 0px 5px;}
 main .detail{margin: 0 0 25px}
 
 main .detail .detail-l{float: left;width: 402px;position: relative;height: 496px;border: 1px solid #cdcdcd;}
+main .detail .detail-l{float: left;width: 402px;position: relative;height: 496px;}
 main .detail .detail-l .lbox{border: 1px solid #ddd;position: absolute;top: 0;left: 0;width: 400px;height: 400px;}
 main .detail .detail-l .lbox .simg{width: 400px;height: 400px;display: block;}
 main .detail .detail-l .lbox .span{width: 100px;height: 100px;position: absolute;border: 1px solid #cdcdcd;display: none;}
@@ -24,6 +25,10 @@ main .detail .detail-l .rbox .bimg{width: 800px;height: 800px;position: absolute
 main .detail .smallimg{width: 400px;height: 64px;margin: 7px 0 0;position: absolute;top:405px;left: 0;}
 main .detail .smallimg ul{width: 400px;height: 64px;overflow: hidden;}
 main .detail .smallimg ul li{display: inline-block;width: 62px;height: 62px;margin: 0 10px 0 0;overflow: hidden;cursor: pointer;vertical-align: top;border: 1px solid #cdcdcd;}
+main .detail .detail-l .rbox .bimg{width: 800px;height: 800px;position: absolute;}
+main .detail .smallimg{width: 400px;height: 64px;margin: 7px 0 0;position: absolute;top:405px;left: 0;}
+main .detail .smallimg ul{width: 400px;height: 64px;overflow: hidden;}
+main .detail .smallimg ul li{display: inline-block;width: 64px;height: 64px;margin: 0 10px 0 0;overflow: hidden;cursor: pointer;vertical-align: top;}
 main .detail .smallimg ul li a{border: 1px solid #dcdcdc;padding: 1px;display: block;}
 main .detail .smallimg ul li img{width: 60px;height: 60px;}
 
@@ -49,6 +54,14 @@ main .detail-c .goshop{margin-top: 20px;margin-left: 15px;}
 main .detail-c .goshop dl dt{font-weight: bold;}
 main .detail-c .goshop dl dd{font-weight: bold;margin: 5px;font-weight: normal;}
 main .detail-c .goshop dl dd i{background-color: #999;height: 8px;width: 8px;border-radius: 50%;margin-top: 4px;margin-right: 4px;display: inline-block;}
+
+
+
+
+
+
+
+
 
 
 
