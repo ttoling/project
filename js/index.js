@@ -6,7 +6,7 @@ $(".banner1").banner({
     list:false,
     autoplay:true,
     delayTime:2000,
-    moveTime:1000,
+    moveTime:500,
     index:0
 });
 
@@ -44,3 +44,5 @@ $(".pinpaiku").children("li").mouseover(function(){
 $(".pinpaiku").children("li").mouseout(function(){
     $(this).children("a").children("img").attr("src",`images/f8-${$(this).attr("index")}.2.jpg`)
 })
+
+

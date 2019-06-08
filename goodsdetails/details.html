@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/details.css">
+    <script src="../libs/jquery.2.2.4.js"></script>
+    <script>
+        $(function () {
+            $("#subNav").load("http://localhost/1903/project-yichao/public.html .subNav")
+            $("header").load("http://localhost/1903/project-yichao/public.html  .head")
+            $("#service").load("http://localhost/1903/project-yichao/public.html  .service")
+            $("#footNav").load("http://localhost/1903/project-yichao/public.html  .footNav")
+            $("footer").load("http://localhost/1903/project-yichao/public.html  .footer")
+            $("#aside").load("http://localhost/1903/project-yichao/public.html  .aside")
+        })
+    </script>
+</head>
+<body>
+    <section id="subNav">
+    </section>
+    <header class="layout clear">
+    </header>
+    <nav>
+        <div class="layout">
+            <div class="nav">
+                <div class="classify">
+                    <h3>所有商品分类<i></i></h3>
+                    <div class="sort">
+                        <ul>
+                            <li>
+                                <i><img src="images/i1.png"></i>
+                                <a href="https://www.yichao.cn/yanjingkuang/">眼镜框</a><b>></b>
+                                <div class="sortlist">
+                                    <dl class="cl-c-list">
+                                        <dt class="red">品牌</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yanjingkuang/yichao/">亿超</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/mode/">MODELE</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/zuochuantengjing/">佐川藤井</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/amani/">阿玛尼</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/ck/">CK</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/pulada/">普拉达</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/guchi/">古驰</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/dior/">迪奥</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/dupeng/">都彭</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/bobaili/">博柏利</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/naike/">耐克</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/jilongxue/">姬龙雪</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/dg/">D&G</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/leipeng/">雷朋</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/oukeli/">欧克利</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/kouchi/">蔻驰</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/baolong/">暴龙</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/woge/">沃格</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/eyu/">鳄鱼</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/jinggong/">精工</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/baozi/">宝姿</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/liweisi/">李维斯</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/pailimeng/">派丽蒙</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/sanshiqidu/">37度</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/guess/">GUESS</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/tangmufute/">汤姆福特</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/wanbaolong/">万宝龙</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/feilagemu/">菲拉格慕</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/zhuchuanmuye/">竹川木野</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/xinbailun/">新百伦</a>
+                                        </dd>
+                                        <dt class="red">价格</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yanjingkuang/300yuan/">0-300元</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/500yuan/">301-500元</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/900yuan/">501-900元</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/900yuanyishang/">900元以上</a>
+                                        </dd>
+                                        <dt class="red">风格</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yanjingkuang/shangwu/">商务</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/xiuxian/">休闲</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/chaokuan/">潮款</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/yundong/">运动</a>
+                                        </dd>
+                                        <dt class="red">适合人群</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yanjingkuang/ertong/">儿童</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/nannvtongyong/">男女通用</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/nvshi/">女士</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/nanshi/">男士</a>
+                                        </dd>
+                                        <dt class="red">材料</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yanjingkuang/chuntai/">纯钛</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/wutan/">钨碳</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/bancai/">板材</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/taiban/">钛板</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/tr90/">TR90</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/jinshuhejin/">金属合金</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/huangniujiao/">黄牛角</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/muzhi/">木质</a>
+                                        </dd>
+                                        <dt class="red">边框</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yanjingkuang/meixiankuang/">眉线框</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/wukuang/">无框</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/bankuang/">半框</a>
+                                            <a href="https://www.yichao.cn/yanjingkuang/quankuang/">全框</a>
+                                        </dd>
+                                        <dt class="channel">
+                                            <a href="https://www.yichao.cn/yanjingpian/">眼镜框频道<i></i></a>
+                                        </dt>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><i><img src="images/i2.png"></i>
+                                <a href="https://www.yichao.cn/yanjingpian/">眼镜片</a><b>></b>
+                                <div class="sortlist">
+                                    <dl class="cl-c-list">
+                                        <dt class="red">品牌</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yanjingpian/yichaojingpian/">亿超</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/gaodingjingpian/">亿超高定</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/caisi/">蔡司</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/yishilu/">依视路</a>
+                                        </dd>
+                                        <dt class="red">适合度数</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yanjingpian/825duyishang/">825度以上</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/525dao800du/">525到800度</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/325dao500du/">325到500度</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/0dao300du/">0到300度</a>
+                                        </dd>
+                                        <dt class="red">类型</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yanjingpian/jinshiputongpian/">近视透明片</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/biansepian/">变色片</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/fangfushe/">防蓝光</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/kangpilao/">抗疲劳</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/ransepian/">染色片</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/pianguangpian/">偏光片</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/laohuapian/">老花片</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/yanggungshaonian/">阳光少年</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/fangwu/">防雾片</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/jianjin/">渐进片</a>
+                                        </dd>
+                                        <dt class="red">材料</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yanjingpian/mr8/">MR</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/pctaikongpian/">PC太空片</a>
+                                            <a href="https://www.yichao.cn/yanjingpian/shuzhijingpian/">树脂镜片</a>
+                                        </dd>
+                                        <dt class="channel">
+                                            <a href="https://www.yichao.cn/yanjingpian/">眼镜片频道<i></i></a>
+                                        </dt>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><i><img src="images/i3.png"></i><a href="https://www.yichao.cn/yinxingyanjing/">隐形眼镜</a><b>></b>
+                                <div class="sortlist">
+                                    <dl class="cl-c-list">
+                                        <dt class="red">隐形分类</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/yuanshiyinxing/">远视隐形</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/gaodushuyinxing/">高度数隐形</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/sanguangyinxing/">散光隐形</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/meitongcaipian/">美瞳彩片</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/toumingyinxing/">透明隐形</a>
+                                        </dd>
+                                        <dt class="red">品牌</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/boshilun/">博士伦</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/qiangsheng/">强生</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/haichang/">海昌</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/weikang/">卫康</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/kubo/">库博</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/ouweishi/">欧威视</a>
+                                        </dd>
+                                        <dt class="red">更换周期</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/ripao/">日抛</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/shuangzhoupao/">双周抛</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/yuepao/">月抛</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/jipao/">季抛</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/bannianpao/">半年抛</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/nianpao/">年抛</a>
+                                        </dd>
+                                        <dt class="red">隐形颜色</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/zengdazenghei/">增大增黑</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/zongse/">棕色</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/huise/">灰色</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/lvse/">绿色</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/zise/">紫色</a>
+                                            <a href="https://www.yichao.cn/yinxingyanjing/lanse/">蓝色</a>
+                                        </dd>
+                                        <dt class="channel">
+                                            <a href="https://www.yichao.cn/yinxingyanjing/">隐形眼镜频道<i></i></a>
+                                        </dt>
+                                    </dl>
+                                </div>                                    
+                            </li>
+                            <li><i><img src="images/i4.png"></i><a href="https://www.yichao.cn/huliye/">眼镜清洗</a><b>></b>
+                                <div class="sortlist">
+                                    <dl class="cl-c-list">
+                                        <dt class="red">品牌</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/huliye/haichang/">海昌</a>
+                                            <a href="https://www.yichao.cn/huliye/boshilun/">博士伦</a>
+                                            <a href="https://www.yichao.cn/huliye/weikang/">卫康</a><a href="https://www.yichao.cn/huliye/aierkang/">爱尔康</a>
+                                        </dd>
+                                        <dt class="red">品类</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/huliye/runyanye/">润眼液</a>
+                                            <a href="https://www.yichao.cn/huliye/huliye/">护理液</a>
+                                        </dd>
+                                        <dt class="channel">
+                                            <a href="https://www.yichao.cn/huliye/">眼镜清洗频道<i></i></a>
+                                        </dt>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><i><img src="images/i5.png"></i><a href="https://www.yichao.cn/taiyangjing/">太阳镜</a><b>></b>
+                                <div class="sortlist">
+                                    <dl class="cl-c-list">
+                                        <dt class="red">品牌</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/taiyangjing/leipeng/">雷朋</a>
+                                            <a href="https://www.yichao.cn/taiyangjing/yichao/">亿超</a>
+                                            <a href="https://www.yichao.cn/taiyangjing/guchi/">古驰</a>
+                                            <a href="https://www.yichao.cn/taiyangjing/oukeli/">欧克利</a>
+                                        </dd>
+                                        <dt class="red">适合人群</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/taiyangjing/tongyong/">通用</a>
+                                            <a href="https://www.yichao.cn/taiyangjing/nvshi/">女士</a>
+                                            <a href="https://www.yichao.cn/taiyangjing/nanshi/">男士</a>
+                                        </dd>
+                                        <dt class="red">功能</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/taiyangjing/huaxuejing/">滑雪镜</a>
+                                            <a href="https://www.yichao.cn/taiyangjing/jinshi/">近视</a>
+                                            <a href="https://www.yichao.cn/taiyangjing/jiapian/">夹片</a>
+                                            <a href="https://www.yichao.cn/taiyangjing/pianguang/">偏光</a>
+                                        </dd>
+                                        <dt class="red">形状</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/taiyangjing/tuoyuanxing/">椭圆形</a>
+                                            <a href="https://www.yichao.cn/taiyangjing/fangxing/">方形</a>
+                                            <a href="https://www.yichao.cn/taiyangjing/hamajing/">蛤蟆镜</a>
+                                        </dd>
+                                        <dt class="channel">
+                                            <a href="https://www.yichao.cn/taiyangjing/">太阳镜频道<i></i></a>
+                                        </dt>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><i><img src="images/i6.png"></i><a href="https://www.yichao.cn/youyongchanpin/">游泳产品</a><b>></b>
+                                <div class="sortlist">
+                                    <dl class="cl-c-list">
+                                        <dt class="red">功能分类</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/youyongchanpin/ertong/">儿童</a>
+                                            <a href="https://www.yichao.cn/youyongchanpin/pingguang/">平光</a>
+                                            <a href="https://www.yichao.cn/youyongchanpin/jinshi/">近视</a>
+                                        </dd>
+                                        <dt class="red">配件</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/youyongchanpin/bijiaersai/">鼻夹|耳塞</a>
+                                            <a href="https://www.yichao.cn/youyongchanpin/yongmao/">泳帽</a>
+                                        </dd>
+                                        <dt class="channel"><a href="https://www.yichao.cn/youyongchanpin/">游泳产品频道<i></i></a>
+                                        </dt>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><i><img src="images/i1.png"></i><a href="https://www.yichao.cn/qiebian/">钻石切边</a><b>></b>
+                                <div class="sortlist">
+                                    <dl class="cl-c-list">
+                                        <dt class="red">适合人群</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/qiebian/nvshi/">女士</a>
+                                            <a href="https://www.yichao.cn/qiebian/nanshi/">男士</a>
+                                        </dd>
+                                        <dt class="red">品牌</dt>
+                                        <dd>
+                                            <a href="https://www.yichao.cn/qiebian/meijing/">魅晶</a>
+                                            <a href="https://www.yichao.cn/qiebian/yichao/">亿超</a>
+                                            <a href="https://www.yichao.cn/qiebian/huanying/">幻影</a>
+                                        </dd>
+                                        <dt class="channel"><a href="https://www.yichao.cn/qiebian/">钻石切边频道<i></i></a>
+                                        </dt>
+                                    </dl>
+                                </div>                              
+                            </li>
+                            <li><i><img src="images/i8.png"></i><a href="https://www.yichao.cn/brand.html">国际品牌</a>
+                            </li>
+                            <li><i><img src="images/i9.png"></i><a href="https://www.yichao.cn/laohuajing/">老花镜</a>
+                            </li>
+                            <li><i><img src="images/i1.png"></i><a href="https://www.yichao.cn/peijian/">眼镜配饰</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-r">
+                    <ul>
+                        <li><a href="##">首页</a></li>
+                        <li><a href="##">眼镜框</a></li>
+                        <li><a href="##">眼镜片</a></li>
+                        <li><a href="##">国际名品</a></li>
+                        <li><a href="##">隐形眼镜</a></li>
+                        <li><a href="##">线下实体店</a></li>
+                        <li><a href="##">眼镜知识</a></li>
+                        <li><a href="##">加盟服务</a></li>
+                        <li><a href="##">天猫旗舰店</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="layout">
+            <div class="crumbs">
+                <a href="https://www.yichao.cn/">首页</a><i>></i><a id="ctl00_cphBody_hlCrumbsGoodsTypeName" href="https://www.yichao.cn/yanjingkuang/">眼镜框</a><i>></i><a id="ctl00_cphBody_hlCrumbsGoodsBrandName" href="/yanjingkuang/yichao/">亿超</a><i>></i> <span id="SpancrumbsGoodsName">
+                            亿超钛FG80105全框超轻眼镜架 男女同款黑银</span>
+            </div>
+        
+            <div class="pro_detail clear">
+                <div id="ctl00_cphBody_divCssChange" class="detail_img disabled-trying">
+                    <!-- 如果是隐形眼镜 增加 CLASS: disabled-trying, 还有115行的js，5改成6-->
+                    <a id="aGoods30828" class="showimg jqzoom" rel="gal30828" href="https://img.yichao.cn:442//uploads/goods/2019032916495678_ori.jpg"><img class="simg" src="https://img.yichao.cn:442//uploads/goods/2019032916495678_ori.jpg" style="border-width: 0px;" /></a><a id="aGoods30826" class="showimg jqzoom" rel="gal30826" href="https://img.yichao.cn:442//uploads/goods/2019032916402393_ori.jpg" style="display:none;"><img class="simg" src="https://img.yichao.cn:442//uploads/goods/2019032916402393_ori.jpg" style="border-width: 0px;" /></a><a id="aGoods30827" class="showimg jqzoom" rel="gal30827" href="https://img.yichao.cn:442//uploads/goods/2019032916473985_ori.jpg" style="display:none;"><img class="simg" src="https://img.yichao.cn:442//uploads/goods/2019032916473985_ori.jpg" style="border-width: 0px;" /></a><div id="divShowImg"><div id="detailesmall" class="smallimg clear"><a href="javascript:;" id="leftNav"><i></i></a><ul><li class="li30828"><a href="javascript:;" rel="{gallery: 'gal30828', smallimage: 'https://img.yichao.cn:442//uploads/goods/2019032916495678_ori.jpg',largeimage: 'https://img.yichao.cn:442//uploads/goods/2019032916495678_ori.jpg'}"><img src="https://img.yichao.cn:442//uploads/goods/2019032916495678_ori.jpg" alt="默认图片"/></a></li><li class="li30826"style="display:none;"><a href="javascript:;" rel="{gallery: 'gal30826', smallimage: 'https://img.yichao.cn:442//uploads/goods/2019032916402393_ori.jpg',largeimage: 'https://img.yichao.cn:442//uploads/goods/2019032916402393_ori.jpg'}"><img src="https://img.yichao.cn:442//uploads/goods/2019032916402393_ori.jpg" alt="默认图片"/></a></li><li class="li30827"style="display:none;"><a href="javascript:;" rel="{gallery: 'gal30827', smallimage: 'https://img.yichao.cn:442//uploads/goods/2019032916473985_ori.jpg',largeimage: 'https://img.yichao.cn:442//uploads/goods/2019032916473985_ori.jpg'}"><img src="https://img.yichao.cn:442//uploads/goods/2019032916473985_ori.jpg" alt="默认图片"/></a></li><li class="li30826" style="display:none;"><a href="javascript:;" rel="{gallery: 'gal30826', smallimage: 'https://img.yichao.cn:442//uploads/goods/2019032916402916_ori.jpg',largeimage: 'https://img.yichao.cn:442//uploads/goods/2019032916402916_ori.jpg'}"><img src="https://img.yichao.cn:442//uploads/goods/2019032916402916_sml.jpg" alt="商品图片"/></a></li><li class="li30827" style="display:none;"><a href="javascript:;" rel="{gallery: 'gal30827', smallimage: 'https://img.yichao.cn:442//uploads/goods/2019032916474534_ori.jpg',largeimage: 'https://img.yichao.cn:442//uploads/goods/2019032916474534_ori.jpg'}"><img src="https://img.yichao.cn:442//uploads/goods/2019032916474534_sml.jpg" alt="商品图片"/></a></li><li class="li30828"><a href="javascript:;" rel="{gallery: 'gal30828', smallimage: 'https://img.yichao.cn:442//uploads/goods/2019032916500084_ori.jpg',largeimage: 'https://img.yichao.cn:442//uploads/goods/2019032916500084_ori.jpg'}"><img src="https://img.yichao.cn:442//uploads/goods/2019032916500084_sml.jpg" alt="商品图片"/></a></li></ul><a href="javascript:;" id="rightNav"><i></i></a></div></div>
+                    <div class="clear">
+                    </div>
+                    <div class="i10">
+                    </div>
+                    <div class="fenxiang">
+                        
+                        <!-- Baidu Button END -->
+                        <a class="pro-favorite" onclick="javaScript:AddGoodsFavorite();return false;" href="/30826.html" title="亿超钛FG80105全框超轻眼镜架 男女同款 _亿超官网" rel="sidebar">Ctrl+D收藏商品</a>
+                    </div>
+                </div>
+
+                <div class="detail_info">
+                    <div id="detailTitle" class="title" style="display: none;">
+                        <div class="goodsname">
+                            <p class="alais">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="detail_panel" style="display: none;">
+                        <div class="price_info">
+                            <span class="price_type">
+                                亿超价</span><input name="ctl00$cphBody$iptPrice" type="hidden" id="ctl00_cphBody_iptPrice" value="458.00|458.00|1|758.00|458|1|30828" /><span class="price_contain">单买镜框</span>
+                        </div>
+                        <div class="marketprice_discount">
+                            市场价<span class="money">￥</span><del id="marketprice" class="marketprice"></del>
+                            <span class="seeUserYou" id="seeUserYou"><a href="javascript:;" class="seeTitle">会员优惠<i class="sanDown"></i></a><ul class="ulSeeYou dn"><li rel="1">V0会员：<i class="vipmoney">￥</i><span>458.00</span></li><li rel="0.99">V1会员：<i class="vipmoney">￥</i><span>453.42</span></li><li rel="0.98">V2会员：<i class="vipmoney">￥</i><span>448.84</span></li><li rel="0.97">V3会员：<i class="vipmoney">￥</i><span>444.26</span></li><li rel="0.96">V4会员：<i class="vipmoney">￥</i><span>439.68</span></li><li rel="0.95">V5会员：<i class="vipmoney">￥</i><span>435.10</span></li></ul><span class="closeDiv dn"></span></span>
+                        </div>
+                        <div class="yunfei">
+                            <span class="yunfeiCon"><i class="ii">浙江杭州</i>至<i class="ii iii" id="moreCity"><span id="spanCityValue">上海</span><a class="aaDown aaUp"></a></i><em id="emNoYun" class='noYun'>免运费</em></span><div class="addresMore dn"><div class="closeDiv"></div><dl class="hotCity"><dd><a href="javascript:;">北京</a></dd><dd><a href="javascript:;">天津</a></dd><dd><a href="javascript:;">上海</a></dd><dd><a href="javascript:;">重庆</a></dd></dl><ul class="moreCity"><li><a href="javascript:;">河北</a></li><li><a href="javascript:;">山西</a></li><li><a href="javascript:;">内蒙古</a></li><li><a href="javascript:;">辽宁</a></li><li><a href="javascript:;">吉林</a></li><li><a href="javascript:;">黑龙江</a></li><li><a href="javascript:;">江苏</a></li><li><a href="javascript:;">浙江</a></li><li><a href="javascript:;">安徽</a></li><li><a href="javascript:;">福建</a></li><li><a href="javascript:;">江西</a></li><li><a href="javascript:;">山东</a></li><li><a href="javascript:;">河南</a></li><li><a href="javascript:;">湖北</a></li><li><a href="javascript:;">湖南</a></li><li><a href="javascript:;">广东</a></li><li><a href="javascript:;">广西</a></li><li><a href="javascript:;">海南</a></li><li><a href="javascript:;">四川</a></li><li><a href="javascript:;">贵州</a></li><li><a href="javascript:;">云南</a></li><li><a href="javascript:;">西藏</a></li><li><a href="javascript:;">陕西</a></li><li><a href="javascript:;">甘肃</a></li><li><a href="javascript:;">青海</a></li><li><a href="javascript:;">宁夏</a></li><li><a href="javascript:;">新疆</a></li><li><a href="javascript:;">台湾</a></li><li><a href="javascript:;">香港</a></li><li><a href="javascript:;">澳门</a></li><li><a href="javascript:;">海外</a></li><li><a href="javascript:;">其他</a></li></ul></div>
+                        </div>
+                    </div>
+                    <div class="detail_panel_other" style="display: none;">
+                        <ul>
+                            <li class="comment">
+                                <p class="times">
+                                </p>
+                                <p>
+                                    累积评价
+                                </p>
+                                <p>
+                                    好评度<i class="highpraise"></i>
+                                </p>
+                            </li>
+                            <li class="point">
+                                <p class="pointnum">
+                                </p>
+                                <p>
+                                    送亿超积分
+                                </p>
+                            </li>
+                            <li class="unitstock">
+                                <p class="unitname">
+                                    库存单位：副
+                                </p>
+                                <p>
+                                    有现货，下单后立即发货
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <iframe style="display: none;" name="ifmAddToCart" id="ifmAddToCart"></iframe>
+                    <form target="ifmAddToCart" id="AddToCart" name="AddToCart" method="post" action="CartAddGoods.aspx">
+
+                <div class="detail-right "><div class="detail-right-top"><img src="/img/qgshop.jpg" width="200" height="170"/></div><div class="detail-right-bottom"><div class="drb-title">全国体验店（52大城市）</div><div class="drb-title2">您可以到店免费验光、试戴</div><ul class="drb-content"><li><a href='https://city.yichao.cn/beijing/'>北京</a></li><li><a href='https://city.yichao.cn/shanghai/'>上海</a></li><li><a href='https://city.yichao.cn/tianjin/'>天津</a></li><li><a href='https://city.yichao.cn/chongqing/'>重庆</a></li><li><a href='https://city.yichao.cn/zjhangzhou/'>浙江杭州</a></li><li><a href='https://city.yichao.cn/zhejiangningbo/'>浙江宁波</a></li><li><a href='https://city.yichao.cn/zhejingshaoxin/'>浙江绍兴</a></li><li><a href='https://city.yichao.cn/gdshenzhen/'>广东深圳</a></li><li><a href='https://city.yichao.cn/gdguangzhou/'>广东广州</a></li><li><a href='https://city.yichao.cn/hzchangxing/'>湖州长兴</a></li><li><a href='https://city.yichao.cn/huzhoudeqing/'>湖州德清</a></li><li><a href='https://city.yichao.cn/xjyining/'>新疆伊宁</a></li><li><a href='https://city.yichao.cn/yunnandali/'>云南大理</a></li><li><a href='https://city.yichao.cn/shanxixian/'>陕西西安</a></li><li><a href='https://city.yichao.cn/yunnanbaoshan/'>云南保山</a></li><li><a href='https://city.yichao.cn/hainanhaikou/'>海南海口</a></li><li><a href='https://city.yichao.cn/jiangxiyichun/'>江西宜春</a></li><li><a href='https://city.yichao.cn/gdjieyang/'>广东揭阳</a></li><li><a href='https://city.yichao.cn/nancang/'>江西南昌</a></li><li><a href='https://city.yichao.cn/changzhi/'>山西长治</a></li><li><a href='https://city.yichao.cn/yangzhong/'>江苏扬中</a></li><li><a href='https://city.yichao.cn/jinsha/'>贵州金沙</a></li><li><a href='https://city.yichao.cn/yueqing/'>温州乐清</a></li><li><a href='https://city.yichao.cn/huizhou/'>广东惠州</a></li><li><a href='https://city.yichao.cn/xianggelila/'>云南香格里拉</a></li><li><a href='https://city.yichao.cn/jiangmeng/'>广东江门</a></li><li><a href='https://city.yichao.cn/huaihua/'>湖南怀化</a></li><li><a href='https://city.yichao.cn/hefei/'>合肥</a></li><li><a href='https://city.yichao.cn/huzhou/'>浙江湖州</a></li><li><a href='https://city.yichao.cn/luquan/'>昆明禄劝</a></li><li><a href='https://city.yichao.cn/gongcheng/'>桂林恭城</a></li><li><a href='https://city.yichao.cn/taigu/'>山西太谷县</a></li><li><a href='https://city.yichao.cn/gddongguan/'>广东东莞</a></li><li><a href='https://city.yichao.cn/shangqiu/'>河南商丘</a></li><li><a href='https://city.yichao.cn/geermu/'>青海格尔木</a></li><li><a href='https://city.yichao.cn/chengdu/'>四川成都</a></li><li><a href='https://city.yichao.cn/xianju/'>台州仙居</a></li><li><a href='https://city.yichao.cn/guangdongfengshun/'>广东丰顺县</a></li><li><a href='https://city.yichao.cn/fengcheng/'>江西丰城</a></li><li><a href='https://city.yichao.cn/jiamusi/'>黑龙江佳木斯</a></li><li><a href='https://city.yichao.cn/qhxining/'>青海西宁</a></li><li><a href='https://city.yichao.cn/shangdongweifang/'>山东潍坊</a></li><li><a href='https://city.yichao.cn/jiangxiganxian/'>江西赣县</a></li><li><a href='https://city.yichao.cn/henanjiaozuo/'>河南焦作</a></li><li><a href='https://city.yichao.cn/yunnanqjing/'>云南曲靖</a></li><li><a href='https://city.yichao.cn/qujinxwei/'>曲靖宣威</a></li><li><a href='https://city.yichao.cn/zhangzhou/'>福建漳州</a></li><li><a href='https://city.yichao.cn/dalateqi/'>内蒙古达拉特旗</a></li><li><a href='https://city.yichao.cn/taizhou/'>浙江台州</a></li><li><a href='https://city.yichao.cn/zjwenzhou/'>温州</a></li><li><a href='https://city.yichao.cn/jiaxing/'>浙江嘉兴</a></li><li><a href='https://city.yichao.cn/tongxiang/'>嘉兴桐乡</a></li></ul></div></div>
+
+    
+        </div>
+    </main>
+    <section id="service">
+
+    </section>
+
+    <section id="footNav">
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <div id="aside">
+
+    </div>
+</body>
+<script src="../libs/jquery.2.2.4.js"></script>
+</html>

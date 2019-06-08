@@ -3,8 +3,7 @@ class Login{
         this.user = document.querySelector("#LoginName");
         this.pass = document.querySelector("#Password");
         this.btn = document.querySelector("#btnLogin");
-        this.msg = document.querySelector(".msg");
-
+        this.msg = document.querySelector(".tipsmsg")
         this.init()
     }
     init(){
@@ -12,6 +11,7 @@ class Login{
         this.btn.onclick = function(){
             // 点击时先获取localStorage
             that.getUserMsg()
+            that.msg.style.display = "block";
         }
     }
     getUserMsg(){
@@ -30,7 +30,8 @@ class Login{
                 // 在存回去，才能实现修改
                 localStorage.setItem("usermsg",JSON.stringify(this.usermsg))
                 // 给提示语句
-                this.msg.innerHTML = "登录成功，三秒后跳转到首页";
+               
+                this.msg.innerHTML = "登录成功，三秒后跳转到<strong><a href='../index.html'>首页</a></strong>";
                 // 三秒后跳转
                 setTimeout(() => {
                     location.href = "index.html";
@@ -40,7 +41,7 @@ class Login{
             }
         }
         // 如果没结束，表示登录失败，那么显示失败信息
-        this.msg.innerHTML = "账号密码不符，请重新登录，或去注册"
+        this.msg.innerHTML = "账号密码不符，请重新<strong><a href='login.html'>登录</a></strong>，或去<strong><a href='registe.html'>注册</a></strong>"
     }
 }
 
